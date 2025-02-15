@@ -1,7 +1,7 @@
 import pandas as pd
 from openpyxl import Workbook
 
-df = pd.read_csv('ulta-salons.csv', encoding='utf-8')
+df = pd.read_csv('ulta-salons-cleaned.csv', encoding='utf-8')
 excel_file_path = 'ulta-salons.xlsx'
 wb = Workbook()
 
